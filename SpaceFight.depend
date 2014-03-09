@@ -1,0 +1,827 @@
+# depslib dependency file v1.0
+1306047233 source:d:\docs\svn\spacefight\trunk\ennemi.cpp
+	"Ennemi.h"
+	"GUI.h"
+	"Stage.h"
+
+1306023962 d:\docs\svn\spacefight\trunk\ennemi.h
+	<list>
+	"Entite.h"
+	"MissileEnnemi.h"
+
+1306023943 d:\docs\svn\spacefight\trunk\entite.h
+	<iostream>
+	<SDL.h>
+	<vector>
+	"TimerInterval.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_platform.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\begin_code.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\close_code.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_keysym.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1305791380 d:\docs\svn\spacefight\trunk\timerinterval.h
+	"Timer.h"
+
+1306027937 d:\docs\svn\spacefight\trunk\timer.h
+
+1305791380 d:\docs\svn\spacefight\trunk\missileennemi.h
+	"Missile.h"
+
+1306024596 d:\docs\svn\spacefight\trunk\missile.h
+	"Entite.h"
+
+1306077500 d:\docs\svn\spacefight\trunk\gui.h
+	<SDL.h>
+	"Controls_GUI.h"
+
+1305979176 d:\docs\svn\spacefight\trunk\stage.h
+	"MatriceEnnemi.h"
+
+1306023693 d:\docs\svn\spacefight\trunk\matriceennemi.h
+	"LigneEnnemi.h"
+
+1306024637 d:\docs\svn\spacefight\trunk\ligneennemi.h
+	"Ennemi.h"
+
+1306024519 source:d:\docs\svn\spacefight\trunk\entite.cpp
+	"Entite.h"
+	<SDL_image.h>
+	"SDL_collide.h"
+	<sprig.h>
+	"GUI.h"
+
+1258249878 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1305791378 d:\docs\svn\spacefight\trunk\sdl_collide.h
+	<SDL.h>
+
+1259294586 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sprig.h
+	"SDL.h"
+	"sprig_inline.h"
+
+1290938512 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sprig_inline.h
+
+1306080528 source:d:\docs\svn\spacefight\trunk\entreesortie.cpp
+	"EntreeSortie.h"
+	<fstream>
+	<sstream>
+	<SDL_ttf.h>
+	"GUI.h"
+
+1306046252 d:\docs\svn\spacefight\trunk\entreesortie.h
+	"VaisseauJoueur.h"
+	"Stage.h"
+
+1306024740 d:\docs\svn\spacefight\trunk\vaisseaujoueur.h
+	<list>
+	"MissileJoueur.h"
+
+1305791380 d:\docs\svn\spacefight\trunk\missilejoueur.h
+	"Missile.h"
+
+1255912094 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14 (mingw)\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1306050713 source:d:\docs\svn\spacefight\trunk\fight.cpp
+	"EntreeSortie.h"
+	"GUI.h"
+
+1306087278 source:d:\docs\svn\spacefight\trunk\gui.cpp
+	"GUI.h"
+	<sstream>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"Timer.h"
+	"EntreeSortie.h"
+	"NFont.h"
+	"Controls_GUI.h"
+	<sprig.h>
+
+1305791414 d:\docs\svn\spacefight\trunk\nfont.h
+	"SDL.h"
+	"stdarg.h"
+	"SDL_ttf.h"
+
+1305791382 d:\docs\svn\spacefight\trunk\controls_gui.h
+	<iostream>
+	"NFont.h"
+
+1306023799 source:d:\docs\svn\spacefight\trunk\ligneennemi.cpp
+	"LigneEnnemi.h"
+	<ctime>
+	<cstdlib>
+	<sstream>
+	"GUI.h"
+
+1306025686 source:d:\docs\svn\spacefight\trunk\matriceennemi.cpp
+	"MatriceEnnemi.h"
+	<ctime>
+	<cstdlib>
+	<sstream>
+	"GUI.h"
+
+1306047276 source:d:\docs\svn\spacefight\trunk\missile.cpp
+	"Missile.h"
+
+1305791380 source:d:\docs\svn\spacefight\trunk\missileennemi.cpp
+	"MissileEnnemi.h"
+	"VaisseauJoueur.h"
+
+1305791380 source:d:\docs\svn\spacefight\trunk\missilejoueur.cpp
+	"MatriceEnnemi.h"
+	"VaisseauJoueur.h"
+	"MissileJoueur.h"
+
+1305791382 source:d:\docs\svn\spacefight\trunk\nfont.cpp
+	"NFont.h"
+	<sprig.h>
+
+1305791378 source:d:\docs\svn\spacefight\trunk\sdl_collide.cpp
+	"SDL_collide.h"
+	"assert.h"
+
+1306103074 source:d:\docs\svn\spacefight\trunk\stage.cpp
+	"Stage.h"
+	<sprig.h>
+	"GUI.h"
+
+1306027958 source:d:\docs\svn\spacefight\trunk\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1305791382 source:d:\docs\svn\spacefight\trunk\timerinterval.cpp
+	"TimerInterval.h"
+
+1306051897 source:d:\docs\svn\spacefight\trunk\vaisseaujoueur.cpp
+	"VaisseauJoueur.h"
+	"GUI.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_platform.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\begin_code.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\close_code.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_keysym.h
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255912094 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258249878 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1259294586 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sprig.h
+	"SDL.h"
+	"sprig_inline.h"
+
+1290938512 d:\logs\sdl_librairies-1.2.14\sdl-1.2.14-mingw\include\sprig_inline.h
+
+1306079938 source:d:\docs\svn\spacefight\trunk\resource.rc
+
+1306047233 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\ennemi.cpp
+	"Ennemi.h"
+	"GUI.h"
+	"Stage.h"
+
+1306023962 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\ennemi.h
+	<list>
+	"Entite.h"
+	"MissileEnnemi.h"
+
+1306023943 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\entite.h
+	<iostream>
+	<SDL.h>
+	<vector>
+	"TimerInterval.h"
+
+1305791380 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\timerinterval.h
+	"Timer.h"
+
+1306027937 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\timer.h
+
+1305791380 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\missileennemi.h
+	"Missile.h"
+
+1306024596 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\missile.h
+	"Entite.h"
+
+1306077500 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\gui.h
+	<SDL.h>
+	"Controls_GUI.h"
+
+1305791382 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\controls_gui.h
+	<iostream>
+	"NFont.h"
+
+1305791414 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\nfont.h
+	"SDL.h"
+	"stdarg.h"
+	"SDL_ttf.h"
+
+1305979176 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\stage.h
+	"MatriceEnnemi.h"
+
+1306023693 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\matriceennemi.h
+	"LigneEnnemi.h"
+
+1306024637 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\ligneennemi.h
+	"Ennemi.h"
+
+1306024519 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\entite.cpp
+	"Entite.h"
+	<SDL_image.h>
+	"SDL_collide.h"
+	<sprig.h>
+	"GUI.h"
+
+1305791378 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\sdl_collide.h
+	<SDL.h>
+
+1306080528 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\entreesortie.cpp
+	"EntreeSortie.h"
+	<fstream>
+	<sstream>
+	<SDL_ttf.h>
+	"GUI.h"
+
+1306046252 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\entreesortie.h
+	"VaisseauJoueur.h"
+	"Stage.h"
+
+1306024740 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\vaisseaujoueur.h
+	<list>
+	"MissileJoueur.h"
+
+1305791380 c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\missilejoueur.h
+	"Missile.h"
+
+1306087278 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\gui.cpp
+	"GUI.h"
+	<sstream>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"Timer.h"
+	"EntreeSortie.h"
+	"NFont.h"
+	"Controls_GUI.h"
+	<sprig.h>
+
+1306023799 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\ligneennemi.cpp
+	"LigneEnnemi.h"
+	<ctime>
+	<cstdlib>
+	<sstream>
+	"GUI.h"
+
+1306025686 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\matriceennemi.cpp
+	"MatriceEnnemi.h"
+	<ctime>
+	<cstdlib>
+	<sstream>
+	"GUI.h"
+
+1306047276 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\missile.cpp
+	"Missile.h"
+
+1305791380 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\missileennemi.cpp
+	"MissileEnnemi.h"
+	"VaisseauJoueur.h"
+
+1305791380 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\missilejoueur.cpp
+	"MatriceEnnemi.h"
+	"VaisseauJoueur.h"
+	"MissileJoueur.h"
+
+1305791382 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\nfont.cpp
+	"NFont.h"
+	<sprig.h>
+
+1305791378 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\sdl_collide.cpp
+	"SDL_collide.h"
+	"assert.h"
+
+1306103074 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\stage.cpp
+	"Stage.h"
+	<sprig.h>
+	"GUI.h"
+
+1306027958 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1305791382 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\timerinterval.cpp
+	"TimerInterval.h"
+
+1306051897 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\vaisseaujoueur.cpp
+	"VaisseauJoueur.h"
+	"GUI.h"
+
+1306212220 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\main.cpp
+	"EntreeSortie.h"
+	"GUI.h"
+
+1306079938 source:c:\users\charnet3d\desktop\mini-projet\cd\code source\projet ensas fighter\resource.rc
+
+1306047233 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\ennemi.cpp
+	"Ennemi.h"
+	"GUI.h"
+	"Stage.h"
+
+1306023962 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\ennemi.h
+	<list>
+	"Entite.h"
+	"MissileEnnemi.h"
+
+1306023943 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\entite.h
+	<iostream>
+	<SDL.h>
+	<vector>
+	"TimerInterval.h"
+
+1305791380 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\timerinterval.h
+	"Timer.h"
+
+1306027937 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\timer.h
+
+1305791380 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\missileennemi.h
+	"Missile.h"
+
+1306024596 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\missile.h
+	"Entite.h"
+
+1306077500 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\gui.h
+	<SDL.h>
+	"Controls_GUI.h"
+
+1305791382 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\controls_gui.h
+	<iostream>
+	"NFont.h"
+
+1305791414 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\nfont.h
+	"SDL.h"
+	"stdarg.h"
+	"SDL_ttf.h"
+
+1305979176 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\stage.h
+	"MatriceEnnemi.h"
+
+1306023693 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\matriceennemi.h
+	"LigneEnnemi.h"
+
+1306024637 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\ligneennemi.h
+	"Ennemi.h"
+
+1306024519 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\entite.cpp
+	"Entite.h"
+	<SDL_image.h>
+	"SDL_collide.h"
+	<sprig.h>
+	"GUI.h"
+
+1305791378 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\sdl_collide.h
+	<SDL.h>
+
+1306080528 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\entreesortie.cpp
+	"EntreeSortie.h"
+	<fstream>
+	<sstream>
+	<SDL_ttf.h>
+	"GUI.h"
+
+1306046252 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\entreesortie.h
+	"VaisseauJoueur.h"
+	"Stage.h"
+
+1306024740 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\vaisseaujoueur.h
+	<list>
+	"MissileJoueur.h"
+
+1305791380 d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\missilejoueur.h
+	"Missile.h"
+
+1306087278 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\gui.cpp
+	"GUI.h"
+	<sstream>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"Timer.h"
+	"EntreeSortie.h"
+	"NFont.h"
+	"Controls_GUI.h"
+	<sprig.h>
+
+1306023799 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\ligneennemi.cpp
+	"LigneEnnemi.h"
+	<ctime>
+	<cstdlib>
+	<sstream>
+	"GUI.h"
+
+1306025686 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\matriceennemi.cpp
+	"MatriceEnnemi.h"
+	<ctime>
+	<cstdlib>
+	<sstream>
+	"GUI.h"
+
+1306047276 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\missile.cpp
+	"Missile.h"
+
+1305791380 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\missileennemi.cpp
+	"MissileEnnemi.h"
+	"VaisseauJoueur.h"
+
+1305791380 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\missilejoueur.cpp
+	"MatriceEnnemi.h"
+	"VaisseauJoueur.h"
+	"MissileJoueur.h"
+
+1305791382 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\nfont.cpp
+	"NFont.h"
+	<sprig.h>
+
+1305791378 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\sdl_collide.cpp
+	"SDL_collide.h"
+	"assert.h"
+
+1306103074 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\stage.cpp
+	"Stage.h"
+	<sprig.h>
+	"GUI.h"
+
+1306027958 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1305791382 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\timerinterval.cpp
+	"TimerInterval.h"
+
+1306051897 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\vaisseaujoueur.cpp
+	"VaisseauJoueur.h"
+	"GUI.h"
+
+1306212220 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\main.cpp
+	"EntreeSortie.h"
+	"GUI.h"
+
+1306079938 source:d:\archives\docs\gi\courses\3ème année\mini-projet\cd\code source\projet ensas fighter\resource.rc
+

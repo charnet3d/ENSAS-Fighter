@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release-Win" />
+	<File name="Controls_GUI.h" open="0" top="0" tabpos="5">
+		<Cursor position="818" topLine="16" />
+	</File>
+	<File name="Ennemi.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="7118" topLine="221" />
+	</File>
+	<File name="Ennemi.h" open="1" top="0" tabpos="7">
+		<Cursor position="1130" topLine="0" />
+	</File>
+	<File name="Entite.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="671" topLine="27" />
+	</File>
+	<File name="Entite.h" open="1" top="0" tabpos="6">
+		<Cursor position="980" topLine="24" />
+	</File>
+	<File name="EntreeSortie.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1141" topLine="0" />
+	</File>
+	<File name="EntreeSortie.h" open="0" top="0" tabpos="5">
+		<Cursor position="219" topLine="0" />
+	</File>
+	<File name="GUI.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="6237" topLine="181" />
+	</File>
+	<File name="GUI.h" open="1" top="0" tabpos="8">
+		<Cursor position="640" topLine="28" />
+	</File>
+	<File name="LigneEnnemi.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3224" topLine="108" />
+	</File>
+	<File name="LigneEnnemi.h" open="0" top="0" tabpos="2">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="MatriceEnnemi.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="5571" topLine="184" />
+	</File>
+	<File name="MatriceEnnemi.h" open="0" top="0" tabpos="7">
+		<Cursor position="1124" topLine="12" />
+	</File>
+	<File name="Missile.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="835" topLine="9" />
+	</File>
+	<File name="Missile.h" open="0" top="0" tabpos="0">
+		<Cursor position="597" topLine="0" />
+	</File>
+	<File name="NFont.h" open="0" top="0" tabpos="0">
+		<Cursor position="1186" topLine="17" />
+	</File>
+	<File name="Stage.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="527" topLine="5" />
+	</File>
+	<File name="Stage.h" open="0" top="0" tabpos="6">
+		<Cursor position="650" topLine="5" />
+	</File>
+	<File name="Timer.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="1702" topLine="61" />
+	</File>
+	<File name="Timer.h" open="1" top="1" tabpos="10">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="TimerInterval.h" open="1" top="0" tabpos="9">
+		<Cursor position="440" topLine="0" />
+	</File>
+	<File name="VaisseauJoueur.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="1062" topLine="195" />
+	</File>
+	<File name="VaisseauJoueur.h" open="0" top="0" tabpos="10">
+		<Cursor position="1506" topLine="32" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="659" topLine="16" />
+	</File>
+	<File name="resource.rc" open="0" top="0" tabpos="11">
+		<Cursor position="53" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

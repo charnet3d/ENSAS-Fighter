@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SpaceFight" />
+		<Option platforms="Windows;Unix;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug-Win">
+				<Option platforms="Windows;" />
+				<Option output="bin\Debug-Win\SpaceFight" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug-Win\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="$(#sdl)\include" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="SDLmain" />
+					<Add library="SDL.dll" />
+					<Add library="SDL_image" />
+					<Add library="SDL_ttf" />
+					<Add library="sprig" />
+					<Add directory="$(#sdl)\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release-Win">
+				<Option platforms="Windows;" />
+				<Option output="bin\Release-Win\SpaceFight" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release-Win\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="$(#sdl)\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="mingw32" />
+					<Add library="SDLmain" />
+					<Add library="SDL.dll" />
+					<Add library="SDL_image" />
+					<Add library="SDL_ttf" />
+					<Add library="sprig" />
+					<Add directory="$(#sdl)\lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug-Linux">
+				<Option platforms="Unix;" />
+				<Option output="bin\Debug-Linux\SpaceFight" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug-Linux\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`sdl-config --cflags`" />
+				</Compiler>
+				<Linker>
+					<Add option="`sdl-config --libs`" />
+					<Add library="SDL_image" />
+					<Add library="SDL_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release-Linux">
+				<Option platforms="Unix;" />
+				<Option output="bin\Release-Linux\SpaceFight" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release-Linux\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="`sdl-config --cflags`" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="`sdl-config --libs`" />
+					<Add library="SDL_image" />
+					<Add library="SDL_ttf" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Controls_GUI.h" />
+		<Unit filename="Ennemi.cpp" />
+		<Unit filename="Ennemi.h" />
+		<Unit filename="Entite.cpp" />
+		<Unit filename="Entite.h" />
+		<Unit filename="EntreeSortie.cpp" />
+		<Unit filename="EntreeSortie.h" />
+		<Unit filename="GUI.cpp" />
+		<Unit filename="GUI.h" />
+		<Unit filename="LigneEnnemi.cpp" />
+		<Unit filename="LigneEnnemi.h" />
+		<Unit filename="MatriceEnnemi.cpp" />
+		<Unit filename="MatriceEnnemi.h" />
+		<Unit filename="Missile.cpp" />
+		<Unit filename="Missile.h" />
+		<Unit filename="MissileEnnemi.cpp" />
+		<Unit filename="MissileEnnemi.h" />
+		<Unit filename="MissileJoueur.cpp" />
+		<Unit filename="MissileJoueur.h" />
+		<Unit filename="NFont.cpp" />
+		<Unit filename="NFont.h" />
+		<Unit filename="SDL_Collide.cpp" />
+		<Unit filename="SDL_Collide.h" />
+		<Unit filename="Stage.cpp" />
+		<Unit filename="Stage.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="TimerInterval.cpp" />
+		<Unit filename="TimerInterval.h" />
+		<Unit filename="VaisseauJoueur.cpp" />
+		<Unit filename="VaisseauJoueur.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+			<Option target="Debug-Win" />
+			<Option target="Release-Win" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
