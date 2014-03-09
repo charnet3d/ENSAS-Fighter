@@ -4,7 +4,7 @@ ENSAS-Fighter
 A space invaders clone made in SDL
 
 
-Eng: To use the project on your machine, follow these steps:
+**Eng:** To use the project on your machine, follow these steps:
 
 1- Copy the folder of SDL and the other libraries somewhere on your hard drive, eg. "c:\SDL-1.2.14-MinGW"
 
@@ -19,7 +19,7 @@ Eng: To use the project on your machine, follow these steps:
 6- Now you'll be able to compile and execute the project successfully
 
 
-Fr: Pour pouvoir utiliser le projet sur votre machine, vous devez d'abord suivre ces étapes:
+**Fr:** Pour pouvoir utiliser le projet sur votre machine, vous devez d'abord suivre ces étapes:
 
 1- copier le dossier de SDL et les autres bibliothèues quelque part dans votre disque dur, par exemple "c:\SDL-1.2.14-MinGW"
 
